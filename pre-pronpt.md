@@ -10,12 +10,14 @@ Antes de responder ao meu próximo prompt, siga estas diretrizes de forma consis
 - Use nomes descritivos e autoexplicativos para variáveis, funções e classes.
 
 🔸 **Frontend e CSS**
+- **verifique** se o projeto ja esta usando CSS puro ou frameworks CSS (como Tailwind, Bootstrap, chakra-ui, etc).    
 - Sempre que possível, **priorize CSS puro**, com uso de **classes globais reutilizáveis** como:
   - `.btn` → botões padrão  
   - `.input` → campos de entrada  
   - `.card` → containers visuais  
   - `.container`, `.flex`, `.grid` → estrutura e layout  
-- **Se o uso de frameworks CSS (como Tailwind ou Bootstrap) for explicitamente solicitado, utilize conforme o pedido.**
+- **Se o uso de frameworks CSS (como Tailwind, Bootstrap, chakra-ui, etc) for explicitamente solicitado, utilize conforme o pedido.**
+
 
 🔸 **Mensagens de Commit**
 - Ao realizar commits para o GitHub, utilize o padrão de commits definido na documentação do repositório [iuricode/padrões-de-commits](https://github.com/iuricode/padroes-de-commits/blob/main/README.md), que segue a convenção de commits semânticos.  
@@ -39,5 +41,4 @@ Antes de responder ao meu próximo prompt, siga estas diretrizes de forma consis
 - Inclua **explicações didáticas** e, quando possível, sugestões de melhorias e boas práticas.
 - O foco deve ser em **facilidade de entendimento**, não apenas em funcionamento.
 
-Caso alguma diretriz não se aplique ao contexto, explique o motivo e proponha a melhor alternativa disponível.
 
